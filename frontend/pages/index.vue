@@ -53,6 +53,11 @@
 				<c-modal-header>About this page</c-modal-header>
 				<c-modal-close-button />
 				<c-modal-body>
+					<p>
+						<c-link isExternal="true" href="https://github.com/kukosek/aichan-subtitle-translator">
+							Github page  <c-icon name="external-link-alt" mx="2px" />
+						</c-link>
+					</p>
 					I made this page to troll: anticeler, kdan,... and
 					other anime fansubbers. Can we still be friends pls?
 					<p>
@@ -64,8 +69,9 @@
 					human translators by improving the models. :)<br>
 					</p>
 					<p>
-					This tool uses <a href="https://lindat.mff.cuni.cz/services/translation/">
-					LINDAT Translation service</a> developed by <a href="http://ufal.mff.cuni.cz/">ÚFAL</a> of MFF CUNI
+					This tool uses <c-link isExternal="true" href="https://lindat.mff.cuni.cz/services/translation/">
+					LINDAT Translation service  <c-icon name="external-link-alt" mx="2px" /> </c-link> developed by
+					<c-link isExternal="true" href="http://ufal.mff.cuni.cz/">ÚFAL  <c-icon name="external-link-alt" mx="2px" /></c-link> of MFF CUNI
 					</p>
 				</c-modal-body>
 				<c-modal-footer>

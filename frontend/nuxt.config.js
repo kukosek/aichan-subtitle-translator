@@ -1,4 +1,5 @@
-import {faRedo, faDownload} from '@fortawesome/free-solid-svg-icons'
+import {faRedo, faDownload, faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons'
+require('dotenv').config()
 export default {
 	// Target (https://go.nuxtjs.dev/config-target)
 	target: 'static',
@@ -63,6 +64,7 @@ export default {
 			iconPack: 'fa',
 			iconSet: {
 				faRedo,
+				faExternalLinkAlt,
 				faDownload
 			}
 		},

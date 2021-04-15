@@ -10,13 +10,13 @@ margin: 0 auto;
 {
 	font-size: 42px;
 	font-weight: 300;
-color: #0f3c4b;
+color: #000000;
 	   margin-bottom: 40px;
 }
 .container h1 a:hover,
 	.container h1 a:focus
 {
-color: #39bfd3;
+color: #000000;
 }
 
 .container nav
@@ -33,18 +33,18 @@ margin: 0 5px;
 .container nav a.is-selected
 {
 	font-weight: 700;
-color: #39bfd3;
+color: #000000;
 	   border-bottom-color: currentColor;
 }
 .container nav a:not( .is-selected ):hover,
 	.container nav a:not( .is-selected ):focus
 {
-	border-bottom-color: #0f3c4b;
+	border-bottom-color: #000000;
 }
 
 .container footer
 {
-color: #92b0b3;
+color: #000000;
 	   margin-top: 40px;
 }
 .container footer p + p
@@ -54,7 +54,7 @@ color: #92b0b3;
 .container footer a:hover,
 	.container footer a:focus
 {
-color: #39bfd3;
+color: #000000;
 }
 
 .box
@@ -84,7 +84,7 @@ transition: outline-offset .15s ease-in-out, background-color .15s linear;
 .box.is-dragover
 {
 	outline-offset: -20px;
-	outline-color: #c8dadf;
+	outline-color: #000000;
 }
 .box__dragndrop,
 	.box__icon
@@ -99,9 +99,15 @@ display: inline;
 {
 width: 100%;
 height: 80px;
-fill: #92b0b3;
+fill: #3C3C3C;
 display: block;
 		 margin-bottom: 40px;
+}
+
+.box__input {
+	background-image: url(~/static/klipartz.com.png);
+	background-position-x: right;
+	background-repeat: no-repeat;
 }
 
 .box.is-uploading .box__input,
@@ -159,7 +165,7 @@ animation: appear-from-inside .25s ease-in-out;
 .box__restart:focus,
 	.box__restart:hover
 {
-color: #39bfd3;
+color: #000000;
 }
 
 .js .box__file
@@ -184,7 +190,7 @@ overflow: hidden;
 	.box__file:focus + label strong,
 	.box__file.has-focus + label strong
 {
-color: #39bfd3;
+color: #000000;
 }
 .js .box__file:focus + label,
 	.js .box__file.has-focus + label
@@ -209,8 +215,8 @@ display: block;
 .box__button
 {
 	font-weight: 700;
-color: #e5edf1;
-	   background-color: #39bfd3;
+color: #000000;
+	   background-color: #000000;
 display: none;
 padding: 8px 16px;
 margin: 40px auto 0;
@@ -218,7 +224,7 @@ margin: 40px auto 0;
 .box__button:hover,
 	.box__button:focus
 {
-	background-color: #0f3c4b;
+	background-color: #000000;
 }
 
 .fade-enter-active,
@@ -253,10 +259,14 @@ margin: 40px auto 0;
 		>
 			<transition name="fade" mode="out-in">
 				<c-flex key=1 direction="column" height="100%" justify="center" v-if="!loadedFiles.length" class="box__input">
-					<svg class="box__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="43" viewBox="0 0 50 43"><path d="M48.4 26.5c-.9 0-1.7.7-1.7 1.7v11.6h-43.3v-11.6c0-.9-.7-1.7-1.7-1.7s-1.7.7-1.7 1.7v13.2c0 .9.7 1.7 1.7 1.7h46.7c.9 0 1.7-.7 1.7-1.7v-13.2c0-1-.7-1.7-1.7-1.7zm-24.5 6.1c.3.3.8.5 1.2.5.4 0 .9-.2 1.2-.5l10-11.6c.7-.7.7-1.7 0-2.4s-1.7-.7-2.4 0l-7.1 8.3v-25.3c0-.9-.7-1.7-1.7-1.7s-1.7.7-1.7 1.7v25.3l-7.1-8.3c-.7-.7-1.7-.7-2.4 0s-.7 1.7 0 2.4l10 11.6z" /></svg>
-					<label v-if="isAdvancedUpload" for="file"><strong><a role="button" @click="$refs.fileInput.click()">
-					Choose a file
-					</a></strong><span class="box__dragndrop"> or drag it here</span>.</label>
+					<c-flex direction="row" align="center">
+						<c-icon size="64px" name="download"/>
+						<div>
+							<strong><a role="button" @click="$refs.fileInput.click()">
+							Choose a file
+							</a></strong><span class="box__dragndrop"> or drag it here</span>.
+						</div>
+					</c-flex>
 
 					<input @change="onFileInputChange" type="file" ref="fileInput" v-show="!isAdvancedUpload" name="files[]" id="file" class="box__file" data-multiple-caption="{count} files selected" multiple />
 					<button type="submit" class="box__button">Upload</button>
@@ -328,7 +338,7 @@ margin: 40px auto 0;
 			},
 			light: {
 			  bg: 'white',
-			  color: 'gray.900'
+			  color: 'gray.600'
 			}
 		  }
 		@Inject('toast') private toast!: (props: Object) => void

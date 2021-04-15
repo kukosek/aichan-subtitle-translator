@@ -1,3 +1,5 @@
+![](banner.png)
+
 # Subtitle translator
 
 A site that takes your subtitle files and translates them.
