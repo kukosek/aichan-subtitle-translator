@@ -1,0 +1,520 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Flashback_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: sign_840_9_Barbecue_Beef_Co,Arial,16,&H002F282B,&H000000FF,&H00413E53,&H00000000,-1,0,0,0,100,100,0,345.4,1,2,0,8,0256,0191,0057,1
+Style: sign_840_10_Rice_Miso_Soup_P,Trebuchet MS,14,&H008E8E8E,&H000000FF,&H00CBCBCB,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0477,0096,0192,1
+Style: Show_Title,Times New Roman,24,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0165,0165,0100,1
+Style: sign_6988_72_Uesugi_Raiha,Trebuchet MS,12,&H00866C60,&H000000FF,&H00F4E2DA,&H00000000,-1,0,0,0,100,100,0,13,1,2,0,7,0333,0229,0096,1
+Style: sign_6988_73_Are_you_eating_a,Arial,16,&H00866C60,&H000000FF,&H00F4E2DA,&H00000000,-1,0,0,0,100,100,0,13,1,2,0,1,0263,0137,0079,1
+Style: sign_13740_172_Welcome_to_the_H,Trebuchet MS,6,&H00BFCCE3,&H000000FF,&H00A5F6F9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0203,0370,0152,1
+Style: sign_13740_173_Ohtagawa,Trebuchet MS,9,&H00C647D6,&H000000FF,&H004FE8F0,&H00000000,-1,0,0,0,100,100,0,270,1,2,0,2,0219,0375,0108,1
+Style: sign_17891_235_Oh__no_,Arial,24,&H004A4A4A,&H000000FF,&H00D8D8D8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0273,0273,0018,1
+Style: sign_25255_342_Nakano_Mi,Times New Roman,24,&H00D2DEE5,&H000000FF,&H00424451,&H00000000,-1,0,0,0,100,100,0,27,1,1,0,2,0376,0133,0116,1
+Style: sign_33407_469_Today_is_like_a_,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00CFA0D8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0065,1
+Style: Episode_Title,Trebuchet MS,20,&HFFFFFFFF,&H000000FF,&H00048672,&H00CFF5F1,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0060,1
+Style: Preview,Times New Roman,12,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,0035,0316,0048,1
+Style: Next_Ep_Title,Arial,16,&H14FFFFFF,&H000000FF,&H14FFFFFF,&H64FFFFFF,0,0,0,0,100,100,0,0,1,0,1,3,0400,0035,0048,1
+Style: Main_Preview,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,1,0040,0245,0018,1
+Style: sign_4951_44_Yen,Arial,24,&H00FFFFFF,&H000000FF,&H004E535B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0536,0054,0100,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+
+Dialogue: 0,0:00:07.16,0:00:08.64,Italics,Futaro,0000,0000,0000,,I was having a dream...
+Dialogue: 0,0:00:11.46,0:00:13.78,Main,Lady,0000,0000,0000,,Please wake up, groom.
+Dialogue: 0,0:00:13.78,0:00:16.32,Main,Lady,0000,0000,0000,,The bride is ready.
+Dialogue: 0,0:00:18.33,0:00:22.46,Italics,Futaro,0000,0000,0000,,A dream of the unbelievable day\Nthat brought us together.
+Dialogue: 0,0:00:26.60,0:00:27.92,Main,Futaro,0000,0000,0000,,Barbecue beef combo.
+Dialogue: 0,0:00:28.32,0:00:29.62,Main,Futaro,0000,0000,0000,,Without beef.
+Dialogue: 0,0:00:29.62,0:00:30.84,Main,Lady,0000,0000,0000,,Sure thing.
+Dialogue: 0,0:00:31.08,0:00:35.01,Italics,Futaro,0000,0000,0000,,You'd think the cheapest item on this\Ncafeteria's menu would be rice, but no.
+Dialogue: 0,0:00:35.01,0:00:35.89,sign_840_9_Barbecue_Beef_Co,Text,0000,0000,0000,,{\fad(1,313)}Barbecue Beef Combo
+Dialogue: 0,0:00:35.01,0:00:35.89,sign_840_10_Rice_Miso_Soup_P,Text,0000,0000,0000,,{\fad(1,313)}Rice\NMiso Soup\NPickled Vegetables
+Dialogue: 0,0:00:35.64,0:00:39.00,Italics,Futaro,0000,0000,0000,,Subtract 200 yen for the beef \Nfrom the barbecue beef combo,
+Dialogue: 0,0:00:39.00,0:00:42.56,Italics,,0000,0000,0000,,and you get rice plus miso soup and \Npickled veggies for the price of rice.
+Dialogue: 0,0:00:45.25,0:00:46.77,Italics,Futaro,0000,0000,0000,,You get free, unlimited water, too.
+Dialogue: 0,0:00:46.77,0:00:48.27,Italics,Futaro,0000,0000,0000,,School cafeteria for the win.
+Dialogue: 0,0:00:48.52,0:00:50.66,Main,Girl 1,0000,0000,0000,,Uesugi-kun's on his own again.
+Dialogue: 0,0:00:50.66,0:00:51.86,Main,Guy 1,0000,0000,0000,,Oh, man.
+Dialogue: 0,0:01:30.73,0:01:32.65,Show_Title,,0000,0000,0000,,{\fad(500,1)}The Quintessential Quintuplets
+Dialogue: 0,0:01:32.65,0:01:33.19,Show_Title,,0000,0000,0000,,{\c&H4FFEF5&\bord2}The Quintessential Quintuplets
+Dialogue: 0,0:01:33.19,0:01:34.28,Show_Title,,0000,0000,0000,,{\c&H4FFEF5&\bord2\3c&HBBA5ED&}The {\3c&HA796C3&}Quint{\3c&H9194A8&}es{\3c&HAF96B2&}sen{\3c&H97969D&}tial {\3c&HA79A98&}Quin{\3c&H909D7E&}tup{\3c&HA08E6A&}lets
+Dialogue: 0,0:01:34.28,0:01:36.57,Show_Title,,0000,0000,0000,,The Quintessential Quintuplets
+Dialogue: 0,0:02:38.66,0:02:40.30,Main,,0000,0000,0000,,Yo, who's that?
+Dialogue: 0,0:02:40.30,0:02:42.01,Main,,0000,0000,0000,,Someone's sitting with Uesugi?
+Dialogue: 0,0:02:42.01,0:02:43.01,Main,,0000,0000,0000,,That never happens!
+Dialogue: 0,0:02:43.01,0:02:44.76,Italics,Futaro,0000,0000,0000,,She isn't wearing our uniform...
+Dialogue: 0,0:02:45.76,0:02:47.54,Italics,Futaro,0000,0000,0000,,Wait, how did this even happen?
+Dialogue: 0,0:02:49.43,0:02:51.73,Flashback,Itsuki,0000,0000,0000,,I got here first.
+Dialogue: 0,0:02:51.73,0:02:53.56,Flashback,Itsuki,0000,0000,0000,,The next table over is available.
+Dialogue: 0,0:02:53.89,0:02:55.19,Flashback,Itsuki,0000,0000,0000,,Move, please.
+Dialogue: 0,0:02:55.56,0:02:58.11,Flashback,Futaro,0000,0000,0000,,This is where I sit every day.
+Dialogue: 0,0:02:58.11,0:02:59.37,Flashback,Itsuki,0000,0000,0000,,You move.
+Dialogue: 0,0:03:01.83,0:03:04.80,Main,Girl 1,0000,0000,0000,,Look, Uesugi-kun's having lunch with a girl.
+Dialogue: 0,0:03:04.80,0:03:06.27,Main,Guy 1,0000,0000,0000,,For real? Yikes!
+Dialogue: 0,0:03:07.08,0:03:09.04,Main,Futaro,0000,0000,0000,,Tch. Those stupid...
+Dialogue: 0,0:03:11.48,0:03:12.98,Italics,Futaro,0000,0000,0000,,She's all red.
+Dialogue: 0,0:03:13.71,0:03:15.62,Italics,Futaro,0000,0000,0000,,No one forced you, you know.
+Dialogue: 0,0:03:18.25,0:03:19.88,Italics,Futaro,0000,0000,0000,,Udon for 250 yen.
+Dialogue: 0,0:03:19.88,0:03:21.76,Italics,Futaro,0000,0000,0000,,Two shrimp tempura for 150 each.
+Dialogue: 0,0:03:21.76,0:03:23.02,Italics,Futaro,0000,0000,0000,,Squid tempura for 100.
+Dialogue: 0,0:03:23.02,0:03:23.85,Italics,Futaro,0000,0000,0000,,Chicken tempura.
+Dialogue: 0,0:03:23.85,0:03:24.94,Italics,Futaro,0000,0000,0000,,Yam tempura.
+Dialogue: 0,0:03:24.94,0:03:26.31,Italics,Futaro,0000,0000,0000,,And a pudding dessert to top it off!
+Dialogue: 0,0:03:26.47,0:03:27.31,sign_4951_44_Yen,,0000,0000,0000,,{\fad(194,1)}Yen
+Dialogue: 0,0:03:27.31,0:03:30.10,sign_4951_44_Yen,,0000,0000,0000,,{\c&HC2C1C4&}Yen
+Dialogue: 0,0:03:27.52,0:03:30.10,Italics,Futaro,0000,0000,0000,,Over 1,000 yen on lunch? \NWhat are you, filthy rich?!
+Dialogue: 0,0:03:32.00,0:03:33.35,Main,Futaro,0000,0000,0000,,Well, do as you like.
+Dialogue: 0,0:03:35.14,0:03:36.27,Main,Itsuki,0000,0000,0000,,Time to eat.
+Dialogue: 0,0:03:43.36,0:03:45.24,Main,Itsuki,0000,0000,0000,,Mind your manners.
+Dialogue: 0,0:03:46.76,0:03:49.01,Main,Itsuki,0000,0000,0000,,Studying in the middle of lunch?
+Dialogue: 0,0:03:49.01,0:03:50.96,Main,Futaro,0000,0000,0000,,I'm reviewing my exam.
+Dialogue: 0,0:03:50.96,0:03:52.46,Main,Futaro,0000,0000,0000,,Leave me alone.
+Dialogue: 0,0:03:53.75,0:03:55.96,Main,Itsuki,0000,0000,0000,,You must be pretty screwed.
+Dialogue: 0,0:03:56.54,0:03:57.88,Main,Itsuki,0000,0000,0000,,What did you get?
+Dialogue: 0,0:03:58.02,0:03:59.26,Main,,0000,0000,0000,,H-Hey!
+Dialogue: 0,0:03:59.26,0:04:01.99,Main,Itsuki,0000,0000,0000,,Let's see, Uesugi Futaro-kun.
+Dialogue: 0,0:04:01.99,0:04:03.68,Main,Itsuki,0000,0000,0000,,You scored...
+Dialogue: 0,0:04:04.74,0:04:06.28,Main,Itsuki,0000,0000,0000,,O-One hundred?!
+Dialogue: 0,0:04:08.08,0:04:09.00,Main,,0000,0000,0000,,Is this real?
+Dialogue: 0,0:04:09.00,0:04:11.06,Main,Futaro,0000,0000,0000,,Oh, man, that's embarrassing.
+Dialogue: 0,0:04:12.07,0:04:13.86,Main,Itsuki,0000,0000,0000,,You showed me this on purpose!
+Dialogue: 0,0:04:16.74,0:04:20.24,Main,Itsuki,0000,0000,0000,,I hate to admit it,\Nbut I'm not great at studies.
+Dialogue: 0,0:04:20.24,0:04:21.11,Main,Itsuki,0000,0000,0000,,I envy you.
+Dialogue: 0,0:04:22.12,0:04:23.16,Main,Itsuki,0000,0000,0000,,I know!
+Dialogue: 0,0:04:23.16,0:04:26.57,Main,Itsuki,0000,0000,0000,,Lady Luck brought you to my table!\NYou should help me study!
+Dialogue: 0,0:04:26.57,0:04:28.12,Main,Futaro,0000,0000,0000,,Thank you for the meal.
+Dialogue: 0,0:04:28.73,0:04:30.29,Main,Itsuki,0000,0000,0000,,You're done eating already?!
+Dialogue: 0,0:04:31.64,0:04:34.87,Main,Itsuki,0000,0000,0000,,Are you really full?
+Dialogue: 0,0:04:35.04,0:04:37.63,Main,Itsuki,0000,0000,0000,,Shall I share some of mine?
+Dialogue: 0,0:04:38.17,0:04:40.63,Main,Futaro,0000,0000,0000,,If anything, you ordered way too much.
+Dialogue: 0,0:04:41.60,0:04:42.55,Main,Futaro,0000,0000,0000,,You'll gain weight.
+Dialogue: 0,0:04:42.77,0:04:43.81,Main,Itsuki,0000,0000,0000,,Gain...
+Dialogue: 0,0:04:45.84,0:04:48.72,Main,Itsuki,0000,0000,0000,,I've never met anyone so insensitive!
+Dialogue: 0,0:04:48.72,0:04:50.26,Main,Itsuki,0000,0000,0000,,I'm not giving you anything!
+Dialogue: 0,0:04:51.43,0:04:52.60,sign_6988_72_Uesugi_Raiha,Text,0000,0000,0000,,{\fad(69,1)}Uesugi Raiha
+Dialogue: 0,0:04:51.43,0:04:52.60,sign_6988_73_Are_you_eating_a,Text,0000,0000,0000,,{\pos(255,270)\frz15\fad(69,1)}Are you eating alone again?\NCall me {\c&HA75F99&}^o^
+Dialogue: 0,0:04:53.52,0:04:55.44,Main,Itsuki,0000,0000,0000,,We can clear our debt?
+Dialogue: 0,0:04:55.99,0:04:58.66,Italics,Raiha,0000,0000,0000,,Dad found a good part-time job.
+Dialogue: 0,0:04:58.66,0:05:00.77,Italics,Raiha,0000,0000,0000,,A rich family moved in just recently,
+Dialogue: 0,0:05:01.00,0:05:04.28,Main,,0000,0000,0000,,and they're looking for\Na tutor for their daughter.
+Dialogue: 0,0:05:04.48,0:05:05.79,Italics,Futaro,0000,0000,0000,,A tutor?
+Dialogue: 0,0:05:06.29,0:05:08.54,Main,Raiha,0000,0000,0000,,A fun, homely workplace.
+Dialogue: 0,0:05:08.54,0:05:10.83,Main,Raiha,0000,0000,0000,,And they're paying \Nfive times the market price.
+Dialogue: 0,0:05:11.18,0:05:14.02,Italics,Futaro,0000,0000,0000,,Uh, that sounds really sketchy.
+Dialogue: 0,0:05:14.44,0:05:17.54,Main,Raiha,0000,0000,0000,,I heard people can get by on just one kidney.
+Dialogue: 0,0:05:17.77,0:05:19.70,Main,Futaro,0000,0000,0000,,Y-You're telling me to give one up?!
+Dialogue: 0,0:05:20.88,0:05:21.91,Italics,Raiha,0000,0000,0000,,I'm kidding.
+Dialogue: 0,0:05:22.53,0:05:26.18,Main,Raiha,0000,0000,0000,,But now you can eat a bellyful,
+Dialogue: 0,0:05:26.18,0:05:27.43,Italics,Raiha,0000,0000,0000,,Onii-chan.
+Dialogue: 0,0:05:31.20,0:05:34.22,Flashback_Italics,Futaro,0000,0000,0000,,So what's this daughter like?
+Dialogue: 0,0:05:35.01,0:05:36.48,Flashback_Italics,Raiha,0000,0000,0000,,She's in high school.
+Dialogue: 0,0:05:36.48,0:05:40.02,Flashback_Italics,Raiha,0000,0000,0000,,They said she's transferring to your school.
+Dialogue: 0,0:05:40.72,0:05:43.33,Flashback_Italics,Raiha,0000,0000,0000,,Her name is, uh, Nakano...
+Dialogue: 0,0:05:43.33,0:05:44.72,Main,Itsuki,0000,0000,0000,,Nakano Itsuki.
+Dialogue: 0,0:05:44.72,0:05:46.46,Main,Itsuki,0000,0000,0000,,Pleased to meet you.
+Dialogue: 0,0:05:49.72,0:05:51.66,Italics,Futaro,0000,0000,0000,,I know this girl!
+Dialogue: 0,0:05:51.66,0:05:53.26,Main,Guy 1,0000,0000,0000,,The transfer student's a girl?
+Dialogue: 0,0:05:53.26,0:05:54.21,Main,Guy 2,0000,0000,0000,,She's actually cute.
+Dialogue: 0,0:05:54.21,0:05:56.17,Main,Girl 1,0000,0000,0000,,That uniform's from Kurobara \NGirls' School, isn't it?
+Dialogue: 0,0:05:56.17,0:05:58.16,Main,Guy 3,0000,0000,0000,,Seriously? She must be rich as hell!
+Dialogue: 0,0:05:58.16,0:06:00.46,Italics,Futaro,0000,0000,0000,,A rich transfer student?
+Dialogue: 0,0:06:01.74,0:06:03.40,Italics,Futaro,0000,0000,0000,,So she's the one?
+Dialogue: 0,0:06:04.24,0:06:05.59,Main,Futaro,0000,0000,0000,,H-Hey.
+Dialogue: 0,0:06:10.79,0:06:12.36,Main,Guy 1,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:06:12.36,0:06:14.35,Italics,Futaro,0000,0000,0000,,U-Uh oh.
+Dialogue: 0,0:06:14.35,0:06:17.50,Main,Lady,0000,0000,0000,,Here you go. Barbecue beef\Ncombo without the beef.
+Dialogue: 0,0:06:18.83,0:06:20.56,Italics,Futaro,0000,0000,0000,,I messed up yesterday,
+Dialogue: 0,0:06:20.99,0:06:22.99,Italics,,0000,0000,0000,,but if that transfer student rejects me,
+Dialogue: 0,0:06:23.52,0:06:26.28,Italics,,0000,0000,0000,,I lose my tutoring opportunity.
+Dialogue: 0,0:06:26.69,0:06:29.15,Italics,Futaro,0000,0000,0000,,I have to get back on her good side.
+Dialogue: 0,0:06:30.52,0:06:34.66,Main,Futaro,0000,0000,0000,,I'm back. I wanted to sit beside you again.
+Dialogue: 0,0:06:35.04,0:06:38.03,Main,Futaro,0000,0000,0000,,Of course, not just for lunch, \Nbut for studying, too.
+Dialogue: 0,0:06:38.03,0:06:39.16,Main,Itsuki,0000,0000,0000,,Oh, my!
+Dialogue: 0,0:06:39.91,0:06:41.26,Italics,Futaro,0000,0000,0000,,Perfect.
+Dialogue: 0,0:06:43.16,0:06:44.80,Main,Itsuki,0000,0000,0000,,Thanks for waiting.
+Dialogue: 0,0:06:44.80,0:06:46.38,Italics,Futaro,0000,0000,0000,,She's eating with her friends.
+Dialogue: 0,0:06:48.42,0:06:51.05,Main,Itsuki,0000,0000,0000,,I'm sorry, but this table is full.
+Dialogue: 0,0:06:59.70,0:07:02.18,Main,Ichika,0000,0000,0000,,Hey, you. Leaving just like that?
+Dialogue: 0,0:07:04.16,0:07:06.46,Main,Ichika,0000,0000,0000,,You're after Itsuki-chan, aren't you?
+Dialogue: 0,0:07:07.90,0:07:09.42,Main,Futaro,0000,0000,0000,,I'm not {\i1}after{\i0} her.
+Dialogue: 0,0:07:09.42,0:07:11.91,Main,Ichika,0000,0000,0000,,What? So it {\i1}is{\i0} Itsuki-chan?
+Dialogue: 0,0:07:13.21,0:07:15.34,Main,Ichika,0000,0000,0000,,What was it about her that got you?
+Dialogue: 0,0:07:15.34,0:07:17.74,Main,Ichika,0000,0000,0000,,How proper she is?\NYou do seem like you'd be into that.
+Dialogue: 0,0:07:18.54,0:07:20.75,Main,Ichika,0000,0000,0000,,I know, I'll go get her.
+Dialogue: 0,0:07:21.08,0:07:21.87,Main,Futaro,0000,0000,0000,,Wait.
+Dialogue: 0,0:07:24.13,0:07:25.59,Main,Futaro,0000,0000,0000,,I don't need your help.
+Dialogue: 0,0:07:26.14,0:07:28.52,Main,Futaro,0000,0000,0000,,My problems are my own to figure out.
+Dialogue: 0,0:07:30.48,0:07:33.93,Main,Ichika,0000,0000,0000,,That's pretty manly, \Ncoming from a studyholic.
+Dialogue: 0,0:07:34.20,0:07:37.64,Main,Ichika,0000,0000,0000,,You can come to your Big Sis Ichika\Nif you ever need help.
+Dialogue: 0,0:07:38.08,0:07:39.82,Main,Ichika,0000,0000,0000,,I bet this is going to be fun.
+Dialogue: 0,0:07:40.59,0:07:41.96,Main,Futaro,0000,0000,0000,,"Big Sis"? What?
+Dialogue: 0,0:07:43.05,0:07:44.22,Main,Futaro,0000,0000,0000,,We're in the same year.
+Dialogue: 0,0:07:44.80,0:07:45.49,Main,Futaro,0000,0000,0000,,I think.
+Dialogue: 0,0:07:46.72,0:07:48.00,Italics,Futaro,0000,0000,0000,,This is bad, though.
+Dialogue: 0,0:07:48.41,0:07:53.11,Italics,Futaro,0000,0000,0000,,I'm meeting her as her \Ntutor today, after school.
+Dialogue: 0,0:07:51.80,0:07:53.11,Main,Yotsuba,0000,0000,0000,,{\an8}Uesugi-san.
+Dialogue: 0,0:07:53.11,0:07:54.40,Italics,Futaro,0000,0000,0000,,I must fix this by then.
+Dialogue: 0,0:07:53.41,0:07:54.92,Main,Yotsuba,0000,0000,0000,,{\an8}Uesugi-san!
+Dialogue: 0,0:07:54.92,0:07:56.28,Main,Yotsuba,0000,0000,0000,,Uesugi-san!
+Dialogue: 0,0:07:57.97,0:07:59.70,Main,Yotsuba,0000,0000,0000,,You finally looked up.
+Dialogue: 0,0:08:02.43,0:08:04.40,Main,Futaro,0000,0000,0000,,Wh-Wh-Who are you?
+Dialogue: 0,0:08:04.40,0:08:06.46,Main,Futaro,0000,0000,0000,,Wh-Why do you know my name?
+Dialogue: 0,0:08:08.23,0:08:10.67,Main,Yotsuba,0000,0000,0000,,That's an excellent question.
+Dialogue: 0,0:08:11.67,0:08:14.64,Main,Yotsuba,0000,0000,0000,,Did you happen to lose an\Nexam paper with a perfect score?
+Dialogue: 0,0:08:14.64,0:08:16.97,Main,,0000,0000,0000,,Or was it this one with a zero?
+Dialogue: 0,0:08:17.35,0:08:19.56,Main,Futaro,0000,0000,0000,,My exam paper? Why do you have it?
+Dialogue: 0,0:08:19.56,0:08:21.48,Main,Yotsuba,0000,0000,0000,,Well, you see...
+Dialogue: 0,0:08:22.09,0:08:22.98,Main,Yotsuba,0000,0000,0000,,Back then,
+Dialogue: 0,0:08:23.96,0:08:24.97,Main,Yotsuba,0000,0000,0000,,{\i1}that{\i0} happened,
+Dialogue: 0,0:08:25.56,0:08:27.32,Main,Yotsuba,0000,0000,0000,,I noticed...
+Dialogue: 0,0:08:28.88,0:08:30.25,Main,Yotsuba,0000,0000,0000,,And now, here we are.
+Dialogue: 0,0:08:30.84,0:08:32.46,Main,Yotsuba,0000,0000,0000,,So, which one is it?
+Dialogue: 0,0:08:33.28,0:08:34.11,Main,Futaro,0000,0000,0000,,The right.
+Dialogue: 0,0:08:34.11,0:08:36.62,Main,Yotsuba,0000,0000,0000,,Wow, you're so honest.
+Dialogue: 0,0:08:37.06,0:08:38.98,Main,Yotsuba,0000,0000,0000,,I shall grant you both.
+Dialogue: 0,0:08:38.98,0:08:40.62,Main,Futaro,0000,0000,0000,,I don't need it.
+Dialogue: 0,0:08:40.99,0:08:42.92,Main,Futaro,0000,0000,0000,,And who even scored a zero?
+Dialogue: 0,0:08:42.92,0:08:44.36,Main,Yotsuba,0000,0000,0000,,I did.
+Dialogue: 0,0:08:44.36,0:08:46.63,Main,Futaro,0000,0000,0000,,And you felt like giving it to me?
+Dialogue: 0,0:08:48.28,0:08:53.81,Main,Yotsuba,0000,0000,0000,,My first impression of you was \Nthat you're a gloomy loner,
+Dialogue: 0,0:08:53.81,0:08:57.06,Main,,0000,0000,0000,,but I'll also add "genius" to that.
+Dialogue: 0,0:08:57.06,0:08:57.89,Main,Yotsuba,0000,0000,0000,,That was fast.
+Dialogue: 0,0:09:05.18,0:09:06.96,Main,Futaro,0000,0000,0000,,Will you stop following me?!
+Dialogue: 0,0:09:06.96,0:09:09.11,Main,Yotsuba,0000,0000,0000,,You still haven't thanked me.
+Dialogue: 0,0:09:10.36,0:09:12.86,Main,Yotsuba,0000,0000,0000,,When someone picks something up \Nfor you, you say "thank you."
+Dialogue: 0,0:09:13.44,0:09:16.14,Main,Yotsuba,0000,0000,0000,,How could you not know this?\NAren't you a genius?
+Dialogue: 0,0:09:16.97,0:09:18.50,Main,Futaro,0000,0000,0000,,I happened to find this.
+Dialogue: 0,0:09:19.92,0:09:21.50,Main,Futaro,0000,0000,0000,,Now we're even.
+Dialogue: 0,0:09:23.12,0:09:24.32,Main,Yotsuba,0000,0000,0000,,Ah.
+Dialogue: 0,0:09:24.32,0:09:25.74,Main,Yotsuba,0000,0000,0000,,Thank you.
+Dialogue: 0,0:09:25.74,0:09:27.37,Italics,Futaro,0000,0000,0000,,She actually went and thanked me.
+Dialogue: 0,0:09:31.16,0:09:34.07,Italics,Futaro,0000,0000,0000,,I thought she'd be alone on her way home.
+Dialogue: 0,0:09:33.05,0:09:37.76,sign_13740_172_Welcome_to_the_H,Text,0000,0000,0000,,Welcome to the\NHome of the Daibutsu
+Dialogue: 0,0:09:33.05,0:09:37.76,sign_13740_173_Ohtagawa,Text,0000,0000,0000,,Ohtagawa
+Dialogue: 0,0:09:34.79,0:09:36.66,Main,Nino,0000,0000,0000,,I think you're eating too much, Itsuki.
+Dialogue: 0,0:09:36.66,0:09:37.76,Main,Itsuki,0000,0000,0000,,Am I?
+Dialogue: 0,0:09:38.16,0:09:39.78,Main,Itsuki,0000,0000,0000,,This is still my second one.
+Dialogue: 0,0:09:41.35,0:09:43.72,Main,Nino,0000,0000,0000,,You meat bun monster!
+Dialogue: 0,0:09:44.48,0:09:46.59,Main,Itsuki,0000,0000,0000,,S-Stop it!
+Dialogue: 0,0:09:46.59,0:09:48.06,Main,Nino,0000,0000,0000,,You won't be popular with guys!
+Dialogue: 0,0:09:48.06,0:09:50.18,Main,Itsuki,0000,0000,0000,,None of your business!
+Dialogue: 0,0:09:50.18,0:09:51.99,Main,Futaro,0000,0000,0000,,I can't get a chance to apologize.
+Dialogue: 0,0:09:52.43,0:09:54.12,Main,Miku,0000,0000,0000,,Are you having fun by yourself?
+Dialogue: 0,0:09:56.04,0:09:57.80,Main,Futaro,0000,0000,0000,,I-It's not bad.
+Dialogue: 0,0:09:58.26,0:09:59.95,Main,Futaro,0000,0000,0000,,This is my hobby.
+Dialogue: 0,0:10:00.68,0:10:01.80,Main,Miku,0000,0000,0000,,I see.
+Dialogue: 0,0:10:01.80,0:10:04.20,Main,Miku,0000,0000,0000,,Staring at high school girls is your hobby?
+Dialogue: 0,0:10:04.84,0:10:05.72,Main,Miku,0000,0000,0000,,Calling in support.
+Dialogue: 0,0:10:06.65,0:10:08.30,Main,Futaro,0000,0000,0000,,Please don't report me.
+Dialogue: 0,0:10:08.91,0:10:11.14,Main,Futaro,0000,0000,0000,,Also, don't tell your friend Itsuki-chan.
+Dialogue: 0,0:10:11.61,0:10:12.88,Main,Miku,0000,0000,0000,,Fine.
+Dialogue: 0,0:10:12.88,0:10:13.88,Main,Miku,0000,0000,0000,,But...
+Dialogue: 0,0:10:14.24,0:10:16.28,Main,Miku,0000,0000,0000,,She's not my friend.
+Dialogue: 0,0:10:22.76,0:10:24.11,Main,Futaro,0000,0000,0000,,I-Is this the place?
+Dialogue: 0,0:10:24.74,0:10:26.82,Main,Futaro,0000,0000,0000,,She's legit rich.
+Dialogue: 0,0:10:29.24,0:10:31.50,Main,Futaro,0000,0000,0000,,This is the right address, I think.
+Dialogue: 0,0:10:37.32,0:10:39.29,Main,Nino,0000,0000,0000,,What are you, a stalker?
+Dialogue: 0,0:10:39.29,0:10:41.78,Main,Nino,0000,0000,0000,,You can talk to me if you want something.
+Dialogue: 0,0:10:43.44,0:10:45.46,Main,Futaro,0000,0000,0000,,I won't get anywhere asking you two.
+Dialogue: 0,0:10:45.46,0:10:46.54,Main,Nino,0000,0000,0000,,You're so persistent.
+Dialogue: 0,0:10:47.60,0:10:49.55,Main,Nino,0000,0000,0000,,People don't like you, do they?
+Dialogue: 0,0:10:50.16,0:10:52.04,Main,Nino,0000,0000,0000,,Go home already.
+Dialogue: 0,0:10:54.16,0:10:55.24,Main,Futaro,0000,0000,0000,,Go home?
+Dialogue: 0,0:10:55.24,0:10:56.86,Main,Futaro,0000,0000,0000,,But this is where I live.
+Dialogue: 0,0:10:56.86,0:10:58.04,Main,Nino,0000,0000,0000,,R-Really?
+Dialogue: 0,0:10:58.04,0:10:59.01,Main,Nino,0000,0000,0000,,Sorry!
+Dialogue: 0,0:10:59.89,0:11:02.64,Main,Miku,0000,0000,0000,,Barbecue beef without barbecue.
+Dialogue: 0,0:11:03.87,0:11:05.35,Main,Miku,0000,0000,0000,,Are you on a diet?
+Dialogue: 0,0:11:09.12,0:11:10.35,Main,Nino,0000,0000,0000,,You!
+Dialogue: 0,0:11:10.35,0:11:12.35,Main,Nino,0000,0000,0000,,I knew it!
+Dialogue: 0,0:11:12.61,0:11:13.30,Italics,Futaro,0000,0000,0000,,There she is.
+Dialogue: 0,0:11:14.96,0:11:17.53,Italics,Futaro,0000,0000,0000,,This is my last chance to talk to her.
+Dialogue: 0,0:11:19.40,0:11:20.61,Italics,Futaro,0000,0000,0000,,Please don't close on me!
+Dialogue: 0,0:11:31.29,0:11:32.79,Italics,Futaro,0000,0000,0000,,This is all her fault!
+Dialogue: 0,0:11:33.27,0:11:36.31,Italics,Futaro,0000,0000,0000,,That I have to bear the discomfort \Nof having to suck up...
+Dialogue: 0,0:11:36.31,0:11:40.37,Italics,Futaro,0000,0000,0000,,That I have to be drenched in sweat \Non my way home from school...
+Dialogue: 0,0:11:40.37,0:11:42.38,Italics,Futaro,0000,0000,0000,,That those weirdos keep messing with me...
+Dialogue: 0,0:11:43.67,0:11:44.62,Italics,Futaro,0000,0000,0000,,It's all...
+Dialogue: 0,0:11:49.47,0:11:51.03,Italics,Futaro,0000,0000,0000,,It's all her...
+Dialogue: 0,0:11:52.34,0:11:53.15,Italics,,0000,0000,0000,,...fault.
+Dialogue: 0,0:11:54.17,0:11:55.87,Main,Itsuki,0000,0000,0000,,I-It's you.
+Dialogue: 0,0:11:56.32,0:11:57.44,Main,Itsuki,0000,0000,0000,,What is it?
+Dialogue: 0,0:11:57.44,0:11:59.36,Main,Itsuki,0000,0000,0000,,Do you need something from me?
+Dialogue: 0,0:11:59.84,0:12:01.82,Main,Futaro,0000,0000,0000,,A-About yesterday...
+Dialogue: 0,0:12:02.08,0:12:03.79,Main,Itsuki,0000,0000,0000,,Huh? Say what?
+Dialogue: 0,0:12:03.79,0:12:05.74,Main,Itsuki,0000,0000,0000,,What are you doing here, anyway?
+Dialogue: 0,0:12:06.84,0:12:08.24,Main,Futaro,0000,0000,0000,,About yesterday, uh...
+Dialogue: 0,0:12:08.24,0:12:09.30,Main,Futaro,0000,0000,0000,,I-I'm...
+Dialogue: 0,0:12:09.30,0:12:11.12,Main,Itsuki,0000,0000,0000,,Are we done here?
+Dialogue: 0,0:12:11.34,0:12:12.79,Main,Futaro,0000,0000,0000,,No, wait.
+Dialogue: 0,0:12:13.25,0:12:15.67,Main,Itsuki,0000,0000,0000,,What exactly are you trying to do?
+Dialogue: 0,0:12:15.67,0:12:18.84,Main,Itsuki,0000,0000,0000,,I have a tutor coming soon.
+Dialogue: 0,0:12:18.84,0:12:19.94,Main,Futaro,0000,0000,0000,,That's me.
+Dialogue: 0,0:12:22.01,0:12:22.84,Main,Itsuki,0000,0000,0000,,What?
+Dialogue: 0,0:12:23.66,0:12:25.86,Main,Futaro,0000,0000,0000,,I'm the tutor.
+Dialogue: 0,0:12:26.18,0:12:28.10,Italics,Itsuki,0000,0000,0000,,Ack!
+Dialogue: 0,0:12:26.18,0:12:28.68,sign_17891_235_Oh__no_,Text,0000,0000,0000,,Ack!
+Dialogue: 0,0:12:30.88,0:12:32.62,Main,Itsuki,0000,0000,0000,,I-I absolutely refuse!
+Dialogue: 0,0:12:32.62,0:12:33.99,Main,Futaro,0000,0000,0000,,I don't like it, either.
+Dialogue: 0,0:12:33.99,0:12:35.71,Main,Futaro,0000,0000,0000,,I like this less than you do.
+Dialogue: 0,0:12:36.24,0:12:37.18,Main,Futaro,0000,0000,0000,,But...
+Dialogue: 0,0:12:37.32,0:12:39.43,Main,Futaro,0000,0000,0000,,I can't give up, either.
+Dialogue: 0,0:12:40.07,0:12:43.15,Main,Futaro,0000,0000,0000,,I was completely in the wrong yesterday.
+Dialogue: 0,0:12:44.28,0:12:45.36,Main,Futaro,0000,0000,0000,,I apologize.
+Dialogue: 0,0:12:45.81,0:12:49.62,Main,Futaro,0000,0000,0000,,Going forward, I'm your partner.
+Dialogue: 0,0:12:50.89,0:12:52.90,Main,Itsuki,0000,0000,0000,,No... I can't.
+Dialogue: 0,0:12:53.36,0:12:57.98,Main,Itsuki,0000,0000,0000,,{\i1}This{\i0} guy is our tutor?
+Dialogue: 0,0:12:58.89,0:13:00.18,Main,Futaro,0000,0000,0000,,"Our"?
+Dialogue: 0,0:13:02.42,0:13:06.67,Main,Nino,0000,0000,0000,,That dude in front of \Nour condo was so creepy.
+Dialogue: 0,0:13:06.67,0:13:07.95,Main,Ichika,0000,0000,0000,,That sounds bad.
+Dialogue: 0,0:13:11.04,0:13:13.05,Main,Ichika,0000,0000,0000,,Hey, it's the honor roll kid.
+Dialogue: 0,0:13:13.05,0:13:14.98,Main,Nino,0000,0000,0000,,It's him! The stalker!
+Dialogue: 0,0:13:14.98,0:13:16.95,Main,Yotsuba,0000,0000,0000,,Uesugi-san is a stalker?!
+Dialogue: 0,0:13:17.34,0:13:18.88,Main,Miku,0000,0000,0000,,You're getting ahead of yourself.
+Dialogue: 0,0:13:18.88,0:13:20.57,Main,Futaro,0000,0000,0000,,Wh-Why are they...
+Dialogue: 0,0:13:24.20,0:13:27.11,Main,Itsuki,0000,0000,0000,,Because we live here, obviously.
+Dialogue: 0,0:13:29.71,0:13:33.14,Main,Futaro,0000,0000,0000,,So the five of you school friends \Nshare an apartment, huh?
+Dialogue: 0,0:13:33.65,0:13:36.97,Italics,Futaro,0000,0000,0000,,My brain, having been put under \Na sudden, heavy load
+Dialogue: 0,0:13:36.97,0:13:41.92,Italics,,0000,0000,0000,,and overclocked past its manufacturer limit,\Nreached a certain conclusion.
+Dialogue: 0,0:13:42.41,0:13:43.34,Italics,Futaro,0000,0000,0000,,I must be dreaming.
+Dialogue: 0,0:13:43.74,0:13:45.83,Italics,Futaro,0000,0000,0000,,This {\i0}has{\i1} to be a dream.
+Dialogue: 0,0:13:45.83,0:13:47.25,Main,Itsuki,0000,0000,0000,,No, actually.
+Dialogue: 0,0:13:47.25,0:13:48.47,Main,Itsuki,0000,0000,0000,,We're...
+Dialogue: 0,0:13:51.25,0:13:53.02,Main,Itsuki,0000,0000,0000,,quintuplets.
+Dialogue: 0,0:13:54.63,0:13:58.31,Main,Futaro,0000,0000,0000,,I'm Uesugi Futaro, and I'm going \Nto be your tutor starting today.
+Dialogue: 0,0:13:58.68,0:14:01.13,Main,Futaro,0000,0000,0000,,I hope we can all have fun studying...
+Dialogue: 0,0:14:02.44,0:14:03.57,Main,Futaro,0000,0000,0000,,Why?
+Dialogue: 0,0:14:03.94,0:14:06.97,Main,Futaro,0000,0000,0000,,Why is there no one here?!
+Dialogue: 0,0:14:07.45,0:14:08.65,Main,Yotsuba,0000,0000,0000,,Here! Here!
+Dialogue: 0,0:14:08.65,0:14:10.30,Main,Yotsuba,0000,0000,0000,,I'm here!
+Dialogue: 0,0:14:10.70,0:14:11.87,Main,Futaro,0000,0000,0000,,Um...
+Dialogue: 0,0:14:11.87,0:14:14.52,Main,Futaro,0000,0000,0000,,Yotsuba, was it? The one who got a zero?
+Dialogue: 0,0:14:16.10,0:14:18.29,Main,Futaro,0000,0000,0000,,Could you try furrowing your eyebrows?
+Dialogue: 0,0:14:19.96,0:14:22.18,Main,Yotsuba,0000,0000,0000,,L-Like this?
+Dialogue: 0,0:14:23.84,0:14:25.59,Main,Futaro,0000,0000,0000,,You really are quintuplets, huh?
+Dialogue: 0,0:14:26.81,0:14:28.59,Main,Futaro,0000,0000,0000,,And why are you here?
+Dialogue: 0,0:14:28.59,0:14:32.98,Main,Yotsuba,0000,0000,0000,,For your lessons, obviously.
+Dialogue: 0,0:14:33.60,0:14:34.58,Main,Futaro,0000,0000,0000,,Yotsuba...
+Dialogue: 0,0:14:35.52,0:14:37.12,Main,Futaro,0000,0000,0000,,Can I hug you?
+Dialogue: 0,0:14:37.12,0:14:40.23,Main,Yotsuba,0000,0000,0000,,Okay, let's go get the rest of them!
+Dialogue: 0,0:14:41.35,0:14:43.61,Main,Yotsuba,0000,0000,0000,,Our rooms, from the front, are...
+Dialogue: 0,0:14:43.85,0:14:48.70,Main,Yotsuba,0000,0000,0000,,Itsuki, me, and then Miku, Nino, and Ichika.
+Dialogue: 0,0:14:49.12,0:14:51.21,Main,Futaro,0000,0000,0000,,I have to start by gathering the five of you?
+Dialogue: 0,0:14:51.90,0:14:53.24,Main,Yotsuba,0000,0000,0000,,It'll be fine.
+Dialogue: 0,0:14:53.63,0:14:56.02,Main,Yotsuba,0000,0000,0000,,Itsuki is quite studious.
+Dialogue: 0,0:14:56.02,0:14:59.41,Main,Yotsuba,0000,0000,0000,,She'll help us out, \Nunless you {\i1}really{\i0} upset her.
+Dialogue: 0,0:14:59.41,0:15:00.92,Main,Itsuki,0000,0000,0000,,No way.
+Dialogue: 0,0:15:01.18,0:15:03.84,Main,Itsuki,0000,0000,0000,,Why you? You're in my class.
+Dialogue: 0,0:15:04.43,0:15:08.05,Main,Itsuki,0000,0000,0000,,Is there not even {\i1}one{\i0} \Nproper tutor in this town?
+Dialogue: 0,0:15:08.33,0:15:11.43,Main,Futaro,0000,0000,0000,,Come on, you said you wanted me\Nto help you study yesterday.
+Dialogue: 0,0:15:11.43,0:15:12.94,Main,Itsuki,0000,0000,0000,,It was a lapse in judgment.
+Dialogue: 0,0:15:13.56,0:15:14.85,Main,Itsuki,0000,0000,0000,,Forget about it.
+Dialogue: 0,0:15:16.49,0:15:19.43,Main,Yotsuba,0000,0000,0000,,With five of us here, \Nthere's bound to be one who's like that.
+Dialogue: 0,0:15:19.88,0:15:23.34,Main,Yotsuba,0000,0000,0000,,Miku's the smartest of all of us.
+Dialogue: 0,0:15:24.20,0:15:26.61,Main,Yotsuba,0000,0000,0000,,She might get along with you.
+Dialogue: 0,0:15:27.37,0:15:28.32,Main,Miku,0000,0000,0000,,No.
+Dialogue: 0,0:15:29.70,0:15:31.82,Main,Miku,0000,0000,0000,,Why you? You're in our grade.
+Dialogue: 0,0:15:32.37,0:15:34.16,Main,Miku,0000,0000,0000,,Is there not even one...
+Dialogue: 0,0:15:34.16,0:15:35.84,Main,Futaro,0000,0000,0000,,Say no more. I heard that already.
+Dialogue: 0,0:15:37.12,0:15:39.08,Main,Yotsuba,0000,0000,0000,,Sh-Shall we move on?
+Dialogue: 0,0:15:40.51,0:15:43.46,Main,Yotsuba,0000,0000,0000,,Nino's really good at socializing.
+Dialogue: 0,0:15:43.69,0:15:45.58,Main,Yotsuba,0000,0000,0000,,I bet she'll hit it off with you.
+Dialogue: 0,0:15:47.25,0:15:49.10,Main,Yotsuba,0000,0000,0000,,M-Maybe she's not in.
+Dialogue: 0,0:15:50.40,0:15:51.97,Main,Yotsuba,0000,0000,0000,,D-Don't worry!
+Dialogue: 0,0:15:52.40,0:15:54.45,Main,Yotsuba,0000,0000,0000,,We still have Ichika!
+Dialogue: 0,0:15:54.45,0:15:55.57,Main,Yotsuba,0000,0000,0000,,Ichika is...
+Dialogue: 0,0:15:58.34,0:16:00.24,Main,Futaro,0000,0000,0000,,Why the silence?
+Dialogue: 0,0:16:00.24,0:16:01.85,Main,Yotsuba,0000,0000,0000,,Please stay calm, okay?
+Dialogue: 0,0:16:05.60,0:16:07.82,Main,Futaro,0000,0000,0000,,Wh-What's with this room?
+Dialogue: 0,0:16:08.31,0:16:10.29,Main,Futaro,0000,0000,0000,,Is someone really living in this dump?
+Dialogue: 0,0:16:11.88,0:16:18.59,Main,Ichika,0000,0000,0000,,I wish you wouldn't talk about \Nmy room like it's some uncivilized land.
+Dialogue: 0,0:16:20.20,0:16:22.80,Main,Yotsuba,0000,0000,0000,,Jeez, you made a huge mess again.
+Dialogue: 0,0:16:22.80,0:16:26.21,Main,Ichika,0000,0000,0000,,I never thought you'd be our tutor.
+Dialogue: 0,0:16:26.21,0:16:27.84,Main,Ichika,0000,0000,0000,,So that's why you were after Itsuki-chan.
+Dialogue: 0,0:16:28.29,0:16:29.17,Main,Futaro,0000,0000,0000,,Never mind that.
+Dialogue: 0,0:16:29.17,0:16:30.92,Main,Futaro,0000,0000,0000,,We're going to the living room.
+Dialogue: 0,0:16:31.13,0:16:32.67,Main,Ichika,0000,0000,0000,,Wait, no! Don't do that!
+Dialogue: 0,0:16:35.46,0:16:37.72,Main,Ichika,0000,0000,0000,,I feel shy. I'm not wearing any clothes.
+Dialogue: 0,0:16:37.72,0:16:39.43,Main,Futaro,0000,0000,0000,,Wh-Why not?!
+Dialogue: 0,0:16:39.67,0:16:40.93,Main,Ichika,0000,0000,0000,,Yotsuba,
+Dialogue: 0,0:16:40.93,0:16:43.45,Main,Ichika,0000,0000,0000,,could you grab me some \Nclothes from around there?
+Dialogue: 0,0:16:43.45,0:16:45.69,Main,Yotsuba,0000,0000,0000,,Huh? Let me see...
+Dialogue: 0,0:16:46.34,0:16:49.82,Main,Futaro,0000,0000,0000,,When's the last time she \Nstudied at this desk?
+Dialogue: 0,0:16:49.82,0:16:53.06,Main,Ichika,0000,0000,0000,,Come on, study this, study that...
+Dialogue: 0,0:16:53.06,0:16:57.32,Main,Ichika,0000,0000,0000,,You're in a girl's room. Is that really\Nwhat you want to focus on?
+Dialogue: 0,0:16:58.07,0:16:59.23,Main,Yotsuba,0000,0000,0000,,Found one.
+Dialogue: 0,0:16:59.23,0:17:02.20,Main,Futaro,0000,0000,0000,,Just get changed and come \Nto the living room, please.
+Dialogue: 0,0:17:03.33,0:17:04.22,Main,Futaro,0000,0000,0000,,Damn it.
+Dialogue: 0,0:17:07.07,0:17:09.47,Main,Miku,0000,0000,0000,,Futaro, was it?
+Dialogue: 0,0:17:09.47,0:17:11.07,Main,Miku,0000,0000,0000,,I need to ask you something.
+Dialogue: 0,0:17:12.98,0:17:15.64,Main,Miku,0000,0000,0000,,Part of my gym clothes is missing.
+Dialogue: 0,0:17:15.64,0:17:17.10,Main,Miku,0000,0000,0000,,A red sweatshirt.
+Dialogue: 0,0:17:17.96,0:17:18.70,Main,Futaro,0000,0000,0000,,I see.
+Dialogue: 0,0:17:19.19,0:17:20.47,Main,Futaro,0000,0000,0000,,I haven't seen it.
+Dialogue: 0,0:17:21.18,0:17:22.84,Main,Miku,0000,0000,0000,,It was here a minute ago.
+Dialogue: 0,0:17:23.42,0:17:25.54,Main,Miku,0000,0000,0000,,Until you got here.
+Dialogue: 0,0:17:28.31,0:17:28.93,Main,Miku,0000,0000,0000,,You...
+Dialogue: 0,0:17:28.93,0:17:29.73,Main,Futaro,0000,0000,0000,,Didn't take it!
+Dialogue: 0,0:17:30.14,0:17:31.32,Main,Itsuki,0000,0000,0000,,Hey.
+Dialogue: 0,0:17:31.60,0:17:33.32,Main,Itsuki,0000,0000,0000,,I made too many cookies.
+Dialogue: 0,0:17:33.32,0:17:34.37,Main,Itsuki,0000,0000,0000,,Want some?
+Dialogue: 0,0:17:33.32,0:17:35.36,sign_25255_342_Nakano_Mi,Text,0000,0000,0000,,Nakano Mi
+Dialogue: 0,0:17:36.21,0:17:38.78,Main,Futaro,0000,0000,0000,,There, now I have four of you.
+Dialogue: 0,0:17:39.62,0:17:41.82,Main,Futaro,0000,0000,0000,,Okay, let's start studying.
+Dialogue: 0,0:17:41.82,0:17:43.04,Main,Ichika,0000,0000,0000,,Yum!
+Dialogue: 0,0:17:43.04,0:17:44.40,Main,Ichika,0000,0000,0000,,What flavor are these?
+Dialogue: 0,0:17:44.40,0:17:46.49,Main,Miku,0000,0000,0000,,Why are you wearing my sweatshirt?
+Dialogue: 0,0:17:46.49,0:17:49.38,Main,Ichika,0000,0000,0000,,I didn't want to get dirty baking.
+Dialogue: 0,0:17:49.69,0:17:50.94,Main,Miku,0000,0000,0000,,Take it off now.
+Dialogue: 0,0:17:50.94,0:17:52.50,Main,Ichika,0000,0000,0000,,Hey, stop that!
+Dialogue: 0,0:17:52.50,0:17:53.47,Main,Miku,0000,0000,0000,,Give it back.
+Dialogue: 0,0:17:53.47,0:17:56.45,Main,Ichika,0000,0000,0000,,Later! I'll give it back later!
+Dialogue: 0,0:17:56.92,0:17:59.73,Main,Yotsuba,0000,0000,0000,,Not to worry, Uesugi-san.
+Dialogue: 0,0:17:59.73,0:18:01.60,Main,Yotsuba,0000,0000,0000,,I'm studying.
+Dialogue: 0,0:18:03.40,0:18:05.76,Main,Yotsuba,0000,0000,0000,,Hey, let's go hang out somewhere.\NIt's Saturday.
+Dialogue: 0,0:18:05.76,0:18:07.12,Main,Ichika,0000,0000,0000,,Oh, was there a package for me?
+Dialogue: 0,0:18:07.12,0:18:10.11,Italics,Futaro,0000,0000,0000,,These girls are hopeless.
+Dialogue: 0,0:18:12.02,0:18:13.51,Main,Ichika,0000,0000,0000,,Do you not like cookies?
+Dialogue: 0,0:18:14.13,0:18:16.02,Main,Futaro,0000,0000,0000,,No, I'm just not in the mood for them.
+Dialogue: 0,0:18:16.95,0:18:20.66,Main,Itsuki,0000,0000,0000,,You don't need to be so wary. \NI didn't poison the cookies.
+Dialogue: 0,0:18:21.33,0:18:23.70,Main,Itsuki,0000,0000,0000,,I wouldn't mind studying if you have some.
+Dialogue: 0,0:18:30.59,0:18:32.12,Main,Itsuki,0000,0000,0000,,He's going at them.
+Dialogue: 0,0:18:32.12,0:18:33.13,Main,Itsuki,0000,0000,0000,,Are they good?
+Dialogue: 0,0:18:34.27,0:18:35.97,Main,Futaro,0000,0000,0000,,Yeah, they're good.
+Dialogue: 0,0:18:35.97,0:18:37.88,Main,Itsuki,0000,0000,0000,,I'm so glad.
+Dialogue: 0,0:18:39.32,0:18:41.64,Main,Itsuki,0000,0000,0000,,Oh, right. The thing is...
+Dialogue: 0,0:18:42.37,0:18:45.52,Main,Itsuki,0000,0000,0000,,We don't need a tutor, honestly.
+Dialogue: 0,0:18:51.86,0:18:53.36,Main,Itsuki,0000,0000,0000,,Just kidding.
+Dialogue: 0,0:18:53.36,0:18:54.80,Main,Itsuki,0000,0000,0000,,Here, water.
+Dialogue: 0,0:18:54.80,0:18:56.40,Main,Futaro,0000,0000,0000,,Th-Thanks.
+Dialogue: 0,0:18:56.94,0:18:57.86,Italics,Futaro,0000,0000,0000,,Damn it...
+Dialogue: 0,0:18:57.86,0:19:00.16,Italics,Futaro,0000,0000,0000,,I'm not surprised by the \Nway they're reacting,
+Dialogue: 0,0:19:00.94,0:19:03.16,Italics,,0000,0000,0000,,but I need to get them to graduate.
+Dialogue: 0,0:19:03.38,0:19:05.81,Italics,Futaro,0000,0000,0000,,There's no other way for me.
+Dialogue: 0,0:19:08.66,0:19:10.46,Main,Itsuki,0000,0000,0000,,Bye-bye.
+Dialogue: 0,0:19:14.24,0:19:15.20,Main,Cab,0000,0000,0000,,Sir.
+Dialogue: 0,0:19:15.61,0:19:17.44,Main,Cab,0000,0000,0000,,Sir, we're here.
+Dialogue: 0,0:19:22.20,0:19:22.98,Main,Futaro,0000,0000,0000,,Where am I?
+Dialogue: 0,0:19:23.72,0:19:24.60,Main,Cab,0000,0000,0000,,Where?
+Dialogue: 0,0:19:24.60,0:19:26.82,Main,Cab,0000,0000,0000,,This is where you live, is it not?
+Dialogue: 0,0:19:26.82,0:19:28.85,Main,Futaro,0000,0000,0000,,H-How?!
+Dialogue: 0,0:19:30.92,0:19:31.81,Italics,Futaro,0000,0000,0000,,She did this!
+Dialogue: 0,0:19:32.04,0:19:34.07,Main,Cab,0000,0000,0000,,That'll be 4,800 yen.
+Dialogue: 0,0:19:35.08,0:19:35.93,Main,Futaro,0000,0000,0000,,Money?!
+Dialogue: 0,0:19:35.93,0:19:37.10,Main,Futaro,0000,0000,0000,,That's so much!
+Dialogue: 0,0:19:37.60,0:19:38.53,Main,Itsuki,0000,0000,0000,,By card.
+Dialogue: 0,0:19:38.92,0:19:40.62,Main,Cab,0000,0000,0000,,Thank you.
+Dialogue: 0,0:19:42.02,0:19:43.11,Main,Futaro,0000,0000,0000,,Itsuki.
+Dialogue: 0,0:19:45.56,0:19:48.43,Main,Itsuki,0000,0000,0000,,I checked your student \Nhandbook for your address.
+Dialogue: 0,0:19:49.91,0:19:52.04,Main,Futaro,0000,0000,0000,,D-Did you look at the photo?
+Dialogue: 0,0:19:52.04,0:19:53.63,Main,Itsuki,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:19:53.85,0:19:56.54,Main,Itsuki,0000,0000,0000,,Anyway, they really pulled\Na fast one on you, huh?
+Dialogue: 0,0:19:56.54,0:20:00.35,Main,Itsuki,0000,0000,0000,,If you've learned your lesson,\Nyou'll give up on tutoring us.
+Dialogue: 0,0:20:01.35,0:20:02.63,Main,Futaro,0000,0000,0000,,I can't do that.
+Dialogue: 0,0:20:04.28,0:20:05.64,Main,Itsuki,0000,0000,0000,,Why are you so persistent?
+Dialogue: 0,0:20:06.68,0:20:08.69,Main,Raiha,0000,0000,0000,,I knew it was you, Onii-chan.
+Dialogue: 0,0:20:08.69,0:20:09.59,Main,Futaro,0000,0000,0000,,Raiha.
+Dialogue: 0,0:20:10.19,0:20:11.54,Main,Raiha,0000,0000,0000,,Welcome home.
+Dialogue: 0,0:20:11.54,0:20:12.84,Main,Raiha,0000,0000,0000,,Dinner's...
+Dialogue: 0,0:20:15.58,0:20:17.94,Main,Raiha,0000,0000,0000,,Is this your student?!
+Dialogue: 0,0:20:18.16,0:20:19.90,Main,Futaro,0000,0000,0000,,Sh-She's nobody.
+Dialogue: 0,0:20:19.90,0:20:21.20,Main,Futaro,0000,0000,0000,,Let's go.
+Dialogue: 0,0:20:21.20,0:20:22.70,Main,Raiha,0000,0000,0000,,You're lying.
+Dialogue: 0,0:20:23.00,0:20:26.20,Main,Raiha,0000,0000,0000,,Would you like to have dinner at our place?
+Dialogue: 0,0:20:27.14,0:20:28.62,Main,Futaro,0000,0000,0000,,R-Raiha...
+Dialogue: 0,0:20:29.00,0:20:30.20,Main,Raiha,0000,0000,0000,,But...
+Dialogue: 0,0:20:31.45,0:20:33.71,Main,Raiha,0000,0000,0000,,Do you not want to?
+Dialogue: 0,0:20:36.86,0:20:37.59,Main,Raiha,0000,0000,0000,,Here we go.
+Dialogue: 0,0:20:38.17,0:20:41.50,Main,Raiha,0000,0000,0000,,The Uesugi Family's special \Ncurry and rolled egg.
+Dialogue: 0,0:20:42.40,0:20:44.56,Main,Raiha,0000,0000,0000,,I hope you like it.
+Dialogue: 0,0:20:44.56,0:20:46.23,Main,Itsuki,0000,0000,0000,,It looks delicious.
+Dialogue: 0,0:20:48.01,0:20:50.83,Main,Futaro,0000,0000,0000,,I doubt a rich girl can appreciate\Nthe food of us common folk.
+Dialogue: 0,0:20:52.34,0:20:53.06,Main,Raiha,0000,0000,0000,,Hey!
+Dialogue: 0,0:20:53.06,0:20:54.24,Main,Futaro,0000,0000,0000,,Ow!
+Dialogue: 0,0:20:54.24,0:20:55.01,Main,,0000,0000,0000,,Cut that out.
+Dialogue: 0,0:20:56.37,0:20:59.07,Main,Dad,0000,0000,0000,,That's why you aren't as popular as I am.
+Dialogue: 0,0:20:59.32,0:21:00.64,Main,Futaro,0000,0000,0000,,Dad...
+Dialogue: 0,0:21:00.64,0:21:04.01,Main,Dad,0000,0000,0000,,I never thought you'd \Nbring home a girl, though.
+Dialogue: 0,0:21:02.06,0:21:02.98,Main,Dad,0000,0000,0000,,{\an8}Let's eat.
+Dialogue: 0,0:21:04.01,0:21:05.37,Main,Raiha,0000,0000,0000,,Oh, yeah, Onii-chan.
+Dialogue: 0,0:21:06.24,0:21:08.16,Main,Raiha,0000,0000,0000,,Did you get your tutoring done?
+Dialogue: 0,0:21:10.98,0:21:12.32,Main,Itsuki,0000,0000,0000,,About that...
+Dialogue: 0,0:21:12.32,0:21:14.37,Main,Futaro,0000,0000,0000,,O-Of course. It's all good.
+Dialogue: 0,0:21:14.64,0:21:15.78,Main,Itsuki,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:21:15.78,0:21:17.79,Main,Futaro,0000,0000,0000,,Just play along. You'll make Raiha sad.
+Dialogue: 0,0:21:18.23,0:21:19.01,Main,Raiha,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:21:19.01,0:21:20.59,Main,Futaro,0000,0000,0000,,No, it's nothing.
+Dialogue: 0,0:21:20.59,0:21:21.82,Main,Itsuki,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:21:23.40,0:21:25.20,Main,Raiha,0000,0000,0000,,I'm glad, though.
+Dialogue: 0,0:21:25.20,0:21:27.30,Main,Raiha,0000,0000,0000,,We can finally deal with our debt problem.
+Dialogue: 0,0:21:27.64,0:21:29.88,Main,Futaro,0000,0000,0000,,We have a guest, Raiha.
+Dialogue: 0,0:21:29.88,0:21:31.23,Main,Raiha,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:21:32.80,0:21:34.09,Main,Itsuki,0000,0000,0000,,Thank you for having me.
+Dialogue: 0,0:21:34.09,0:21:34.99,Main,Dad,0000,0000,0000,,Sure.
+Dialogue: 0,0:21:34.99,0:21:36.94,Main,Itsuki,0000,0000,0000,,Thanks for the dinner, Raiha-chan.
+Dialogue: 0,0:21:39.08,0:21:40.23,Main,Raiha,0000,0000,0000,,Itsuki-san...
+Dialogue: 0,0:21:40.23,0:21:41.27,Main,Itsuki,0000,0000,0000,,Y-Yes?
+Dialogue: 0,0:21:41.80,0:21:45.39,Main,Raiha,0000,0000,0000,,My brother's a crappy, \Negoistic low-life, but...
+Dialogue: 0,0:21:45.39,0:21:47.11,Main,Futaro,0000,0000,0000,,R-Raiha?
+Dialogue: 0,0:21:47.11,0:21:49.24,Main,Raiha,0000,0000,0000,,But he's got lots of good qualities, too.
+Dialogue: 0,0:21:50.24,0:21:51.49,Main,Raiha,0000,0000,0000,,So, um...
+Dialogue: 0,0:21:52.41,0:21:54.58,Main,Raiha,0000,0000,0000,,Would you have dinner with us again?
+Dialogue: 0,0:21:57.64,0:21:59.08,Main,Itsuki,0000,0000,0000,,Of course.
+Dialogue: 0,0:21:59.08,0:22:01.84,Main,Itsuki,0000,0000,0000,,Using my brain makes me hungry.
+Dialogue: 0,0:22:01.84,0:22:03.67,Main,Itsuki,0000,0000,0000,,I hope you'll treat me again.
+Dialogue: 0,0:22:05.20,0:22:07.01,Main,Itsuki,0000,0000,0000,,Don't get the wrong idea.
+Dialogue: 0,0:22:07.74,0:22:10.27,Main,Itsuki,0000,0000,0000,,I have an idea of your circumstances now,
+Dialogue: 0,0:22:10.27,0:22:11.89,Main,,0000,0000,0000,,but I can't help you.
+Dialogue: 0,0:22:12.15,0:22:13.22,Main,Futaro,0000,0000,0000,,That so?
+Dialogue: 0,0:22:14.57,0:22:17.16,Main,Itsuki,0000,0000,0000,,I'll study, but I won't \Nask for your tutelage.
+Dialogue: 0,0:22:17.66,0:22:20.92,Main,Itsuki,0000,0000,0000,,I'll pull it off without your assistance.
+Dialogue: 0,0:22:22.23,0:22:26.99,Main,Itsuki,0000,0000,0000,,So if you want to tutor us, suit yourself.
+Dialogue: 0,0:22:28.34,0:22:29.42,Main,Futaro,0000,0000,0000,,What did you just say?
+Dialogue: 0,0:22:30.31,0:22:32.83,Main,Itsuki,0000,0000,0000,,I said, suit yourself.
+Dialogue: 0,0:22:32.83,0:22:34.39,Main,Futaro,0000,0000,0000,,R-Really?
+Dialogue: 0,0:22:34.84,0:22:36.16,Main,Futaro,0000,0000,0000,,That's all I have to do?
+Dialogue: 0,0:22:36.16,0:22:37.83,Main,Futaro,0000,0000,0000,,You're the best, Itsuki!
+Dialogue: 0,0:22:38.30,0:22:39.67,Main,Itsuki,0000,0000,0000,,What?
+Dialogue: 0,0:22:40.04,0:22:42.28,Main,Futaro,0000,0000,0000,,I'll be there precisely at noon tomorrow.
+Dialogue: 0,0:22:42.28,0:22:43.96,Main,Futaro,0000,0000,0000,,Gather the other four for me.
+Dialogue: 0,0:22:44.44,0:22:45.67,Main,Itsuki,0000,0000,0000,,Right.
+Dialogue: 0,0:22:46.44,0:22:47.20,Italics,Futaro,0000,0000,0000,,That's right.
+Dialogue: 0,0:22:47.20,0:22:50.82,Italics,Futaro,0000,0000,0000,,My job is to help\Nall five of them graduate.
+Dialogue: 0,0:22:50.82,0:22:56.21,Italics,Futaro,0000,0000,0000,,I don't need to actually \Ndeal with all five of them.
+Dialogue: 0,0:22:56.21,0:22:59.94,Italics,Futaro,0000,0000,0000,,I just need to teach the ones\Nthat are in danger of failing.
+Dialogue: 0,0:23:01.28,0:23:03.65,Main,Itsuki,0000,0000,0000,,I wonder if Futaro knows.
+Dialogue: 0,0:23:04.33,0:23:05.90,Main,Ichika,0000,0000,0000,,I doubt he knows...
+Dialogue: 0,0:23:06.65,0:23:12.46,Main,Ichika,0000,0000,0000,,that we transferred here because \Nall five of us nearly failed.
+Dialogue: 0,0:23:13.32,0:23:16.79,sign_33407_469_Today_is_like_a_,,0000,0000,0000,,{\fad(1990,437)}"The unbelievable day..." Hehe.
+Dialogue: 0,0:23:16.87,0:23:21.08,sign_33407_469_Today_is_like_a_,,0000,0000,0000,,{\fad(2194,431)}You mean the day you met us, right?
+Dialogue: 0,0:23:21.21,0:23:24.67,sign_33407_469_Today_is_like_a_,,0000,0000,0000,,{\fad(2150,1)}It didn't seem like it at the time.
+Dialogue: 0,0:23:25.21,0:23:26.67,Main,,0000,0000,0000,,Yeah, you're right.
+Dialogue: 0,0:23:28.07,0:23:32.13,Main,,0000,0000,0000,,All these years later,\NI still relive that moment in my sleep...
+Dialogue: 0,0:23:44.80,0:23:46.44,Main,,0000,0000,0000,,{\an8}It was unbelievable.
+Dialogue: 0,0:23:45.02,0:23:49.94,Episode_Title,,0000,0000,0000,,{\fad(1655,1)}#01 The Quintessential Quintuplets
+Dialogue: 0,0:23:46.44,0:23:48.21,Main,,0000,0000,0000,,{\an8}An absolute nightmare.
+Dialogue: 0,0:23:49.94,0:24:04.96,Preview,,0000,0000,0000,,{\fad(530,1)\blur10}Next Time on {\fs16}The Quintessential Quintuplets
+Dialogue: 0,0:23:49.94,0:24:04.96,Next_Ep_Title,,0000,0000,0000,,{\fad(530,1)}#02 Rooftop Confession
+Dialogue: 0,0:23:50.49,0:23:51.93,Main_Preview,,0000,0000,0000,,Quintuplets Trivia!
+Dialogue: 0,0:23:51.93,0:23:55.08,Main_Preview,,0000,0000,0000,,Our weights total up to 250 kilos!
+Dialogue: 0,0:23:55.08,0:23:57.34,Main_Preview,,0000,0000,0000,,Wow, it's neatly divisible by five!
+Dialogue: 0,0:23:57.34,0:24:00.24,Main_Preview,,0000,0000,0000,,50 kilos each! The average,\Nhealthy weight for a girl!
+Dialogue: 0,0:24:00.24,0:24:01.31,Main_Preview,,0000,0000,0000,,Let's go with that, okay?
+Dialogue: 0,0:24:01.31,0:24:02.18,Main_Preview,,0000,0000,0000,,Uh, but...
+Dialogue: 0,0:24:02.18,0:24:03.52,Main_Preview,,0000,0000,0000,,Let's go with that, {\i1}okay{\i0}?
+Dialogue: 0,0:24:03.52,0:24:04.17,Main_Preview,,0000,0000,0000,,Okay...

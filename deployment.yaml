@@ -1,0 +1,114 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: aichan-secrets
+type: Opaque
+data:
+  db_host: "MTAuMTA2LjIyNy4yNTI="
+  db_name: "YWljaGFu"
+  db_username: "dGVzdHVzZXI="
+  db_password: "YWljaGFu"
+
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aichan-frontend
+  labels:
+    app: aichan-frontend
+  annotations:
+    keel.sh/policy: all
+    keel.sh/trigger: poll
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aichan-frontend
+  template:
+    metadata:
+      labels:
+        app: aichan-frontend
+    spec:
+      imagePullSecrets:
+      - name: registrypullsecret
+      containers:
+      - name: aichan-frontend
+        image: docker.dulik.net/aichan-frontend:latest
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aichan-backend
+  labels:
+    app: aichan-backend
+  annotations:
+    keel.sh/policy: all
+    keel.sh/trigger: poll
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aichan-backend
+  template:
+    metadata:
+      labels:
+        app: aichan-backend
+    spec:
+      imagePullSecrets:
+      - name: registrypullsecret
+      containers:
+      - name: aichan-backend
+        image: docker.dulik.net/aichan-backend:latest
+        env:
+        - name: DB_HOST
+          valueFrom:
+            secretKeyRef:
+              name: aichan-secrets
+              key: db_host
+        - name: DB_NAME
+          valueFrom:
+            secretKeyRef:
+              name: aichan-secrets
+              key: db_name
+        - name: DB_USER
+          valueFrom:
+            secretKeyRef:
+              name: aichan-secrets
+              key: db_username
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: aichan-secrets
+              key: db_password
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: aichan-frontend
+spec:
+  selector:
+    app: aichan-frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: aichan-backend
+spec:
+  selector:
+    app: aichan-backend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9090
+

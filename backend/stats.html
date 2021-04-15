@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="dist/uPlot.min.css">
+		<script src="dist/uPlot.iife.min.js"></script>
+		<title>API stats</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<style>
+			body {
+				font-family: 'Open Sans', sans-serif;
+				margin: 20px;
+				background-color: #e0e0e0;
+				color: #404040;
+			}
+			h1 {
+				font-family: 'Lato', sans-serif;
+				color: #000000;
+			}
+		</style>
+		<h1>Ai-Chan API stats</h1>
+		<p>
+		n.o. successfully translated: {{successes}}<br>
+		n.o. fails (bad usage of api): {{fails}}<br>
+		n.o. errors (failed reading, or composing subtitle files): {{errors}}<br>
+		</p>
+		<script>
+			var data = [
+				{{concurrent_timestamps}},
+				{{concurrent_values}}
+			];
+			let opts = {
+				title: "Concurrent requests",
+				id: "chart1",
+				class: "my-chart",
+				width: 800,
+				height: 300,
+				series: [
+					{},
+					{
+						// initial toggled state (optional)
+						show: true,
+
+						spanGaps: false,
+
+						// in-legend display
+						label: "Number of subs translating at that time",
+						value: (self, rawValue) => "" + rawValue.toFixed(2),
+
+						// series style
+						width: 1,
+						fill: "rgba(255, 0, 0, 0.3)",
+						dash: [10, 5],
+						paths: (u, sidx, i0, i1) => {
+							if (ii % 2)
+								return u.paths(u, sidx, i0, i1)
+
+							const s      = u.series[sidx];
+							const xdata  = u.data[0];
+							const ydata  = u.data[sidx];
+							const scaleX = 'x';
+							const scaleY = s.scale;
+
+							const stroke = new Path2D();
+							stroke.moveTo(
+								Math.round(u.valToPos(xdata[0], scaleX, true)),
+								Math.round(u.valToPos(ydata[0], scaleY, true))
+							);
+
+							for (let i = i0; i <= i1 - 1; i++) {
+								let x0 = Math.round(u.valToPos(xdata[i], scaleX, true));
+								let y0 = Math.round(u.valToPos(ydata[i], scaleY, true));
+								let x1 = Math.round(u.valToPos(xdata[i+1], scaleX, true));
+								let y1 = Math.round(u.valToPos(ydata[i+1], scaleY, true));
+
+								stroke.lineTo(x0, y0);
+								stroke.lineTo(x1, y0);
+
+								if (i == i1 - 1)
+  									stroke.lineTo(x1, y1);
+							}
+
+							const fill = new Path2D(stroke);
+
+							let minY = Math.round(u.valToPos(u.scales[scaleY].min, scaleY, true));
+							let minX = Math.round(u.valToPos(u.scales[scaleX].min, scaleX, true));
+							let maxX = Math.round(u.valToPos(u.scales[scaleX].max, scaleX, true));
+
+							fill.lineTo(maxX, minY);
+							fill.lineTo(minX, minY);
+
+							return {
+								stroke,
+								fill,
+							};
+						}
+					}
+				],
+			};
+			var ii = 0
+			var uplot = new uPlot(opts, data, document.body);
+		</script>
+	</body>
+</html>
