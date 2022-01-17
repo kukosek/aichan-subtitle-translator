@@ -87,4 +87,5 @@ class AssParser:
                     line_i += 1
                     break
             sub.text = compose_ass(subdoc)
+        subs.info["Original Translation"] = "Líný překlad z dulik.net/aichan"
         return subs.to_string(format_=sub_format)
